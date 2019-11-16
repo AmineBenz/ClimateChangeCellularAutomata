@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<parameters>
+
+	<parameter name="randomSeed" displayName="Default Random Seed"
+		type="int" defaultValue="__NULL__" isReadOnly="false"
+		converter="repast.simphony.parameter.StringConverterFactory$IntConverter" />
+
+	<parameter name="TileSize" displayName="taille de carte"
+		type="int" defaultValue="30" isReadOnly="false"
+		converter="repast.simphony.parameter.StringConverterFactory$IntConverter" />
+		
+	<parameter name="NumbreOfVehicules" displayName="nombre de vehicule"
+		type="int" defaultValue="8" isReadOnly="false"
+		converter="repast.simphony.parameter.StringConverterFactory$IntConverter" />
+	<parameter name="NumberOfPersons" displayName="nombre de personnes"
+		type="int" defaultValue="10" isReadOnly="false"
+		converter="repast.simphony.parameter.StringConverterFactory$IntConverter" />
+	<parameter name="NumberOfFactories" displayName="nombre d'usine"
+		type="int" defaultValue="4" isReadOnly="false"
+		converter="repast.simphony.parameter.StringConverterFactory$IntConverter" />
+	<parameter name="NumberOfTrees" displayName="nombre d'arbres"
+		type="int" defaultValue="18" isReadOnly="false"
+		converter="repast.simphony.parameter.StringConverterFactory$IntConverter" />
+
+	<parameter name="VehiculeCo2Emission" displayName="emission co2 des vehicules "
+		type="double" defaultValue="20" isReadOnly="false"
+		converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter" />
+	<parameter name="TreeCo2Emission" displayName="taux d'absroption des arbres"
+		type="double" defaultValue="20" isReadOnly="false"
+		converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter" />
+	<parameter name="FactoryCo2Emission" displayName="emission co2 des usines"
+		type="double" defaultValue="30" isReadOnly="false"
+		converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter" />
+	<parameter name="Co2MaxLevel" displayName="niveau maximal du co2 (pour rendu) "
+		type="double" defaultValue="800" isReadOnly="false"
+		converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter" />
+	<parameter name="PropagationPer" displayName="pourcentage de propagation %"
+		type="double" defaultValue="10" isReadOnly="false"
+		converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter" />
+	<parameter name="VaporationPer" displayName="pourcentage d'evaporation du co2 %"
+		type="double" defaultValue="30" isReadOnly="false"
+		converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter" />
+	<parameter name="AirVaporationRate" displayName="pourcentage de propagation en air du co2 %"
+		type="double" defaultValue="5" isReadOnly="false"
+		converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter" />
+
+	<parameter name="VaporationSpeed" displayName="vitesse d'evaporation"
+		type="int" defaultValue="25" isReadOnly="false"
+		converter="repast.simphony.parameter.StringConverterFactory$IntConverter" />
+		
+	
+</parameters>
