@@ -1,6 +1,6 @@
 # ClimateChangeCellularAutomata
 
-This is a small University Homework made in Java Repast3 in Eclipse by :
+This is a small University Homework made in Java Repast3 in Eclipse by :/n
     - Benzagouta Mohamed Lamine (AmineBenz)
     - Bounaghla Soheyb
     
